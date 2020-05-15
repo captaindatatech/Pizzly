@@ -173,7 +173,8 @@ const replaceEmbeddedExpressions = (
   const variables = {
     auth: {
       accessToken: oauthPayload.accessToken,
-      refreshToken: oauthPayload.refreshToken
+      refreshToken: oauthPayload.refreshToken,
+      idTokenJwt: oauthPayload.idTokenJwt
     },
     headers: options.headers
   }

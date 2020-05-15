@@ -16,7 +16,7 @@
     "hint": "You will find your Quickbooks credentials here: https://developer.intuit.com/v2/ui#/app/dashboard"
   },
   "request": {
-    "baseURL": "https://sandbox-quickbooks.api.intuit.com/v3/company/${auth.idTokenJwt.realmid}",
+    "baseURL": "https://sandbox-quickbooks.api.intuit.com/v3/company/${auth.idTokenJwt.realmid}/",
     "headers": {
       "Accept": "application/json",
       "Authorization": "Bearer ${auth.accessToken}",
